@@ -1,0 +1,25 @@
+<h2> Student List</h2>
+
+<table class = "table">
+  <thead>
+    <tr class="table-success">
+      <th> Student Name </th>
+      <th> Email Id </th>  
+      <th> Password </th>
+      <th> Actions </th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor = "let Student of Students" class="table-danger">
+        <td> {{ Student.student_name }}</td>
+        <td> {{ Student.email }}</td>
+        <td> {{ Student.pwd }}</td>
+        <td>
+        <button (click) = "updateStudent(Student.id)" class = "btn btn-info">Update</button>
+        <button (click) = "deleteStudent(Student.id)" class = "btn btn-danger">Delete</button>
+
+        </td>
+    </tr>
+  </tbody>
+</table>

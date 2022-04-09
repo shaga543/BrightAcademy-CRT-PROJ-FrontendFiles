@@ -1,0 +1,42 @@
+.cn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-right: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+
+}
+
+.cn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+
+.cn2{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-right: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+
+}
+
+.cn2:hover{
+    background: #fff;
+    color: #ff7200;
+}
+
+.s1{
+    margin: 2px;
+    padding: 2px;
+}
